@@ -1,4 +1,7 @@
-dependencies: cromwell-32.jar dxWDL-0.66.2.jar
+dependencies: cromwell-32.jar dxWDL-0.66.2.jar docker-dependencies
+
+docker-dependences:
+	bash testimg/dependencies.sh
 
 cromwell-32.jar:
 	wget https://github.com/broadinstitute/cromwell/releases/download/32/cromwell-32.jar
