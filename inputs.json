@@ -1,0 +1,4 @@
+{
+    "test_everything.testfile": "testfile.txt",
+    "test_everything.expected": "testfile_expected_pairs.txt"
+}
