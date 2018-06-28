@@ -12,6 +12,7 @@ dxWDL-0.66.2.jar:
 test: unit-tests integration-tests
 
 unit-tests:
+	# TODO: Do this in the Docker image yo
 	python testimg/unit_tests.pyc
 
 docker-images:
