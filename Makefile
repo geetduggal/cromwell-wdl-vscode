@@ -26,4 +26,8 @@ dnanexus: dxWDL-0.66.2.jar
 	dx whoami
 	java -jar dxWDL-0.66.2.jar compile integration_tests.wdl
 
+# integration-tests-dnanexus: larger integration tests in the cloud
+
+# release: tag Github release and Docker images, publish versioned workflow
+
 	
