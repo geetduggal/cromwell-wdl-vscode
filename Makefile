@@ -1,4 +1,4 @@
-dependencies: cromwell-32.jar dxWDL-0.66.2.jar docker-dependencies
+dependencies: cromwell-32.jar dxWDL-0.66.2.jar docker-dependencies # dx-toolkit
 
 docker-dependences:
 	bash testimg/dependencies.sh
